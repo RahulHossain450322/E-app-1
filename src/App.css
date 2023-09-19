@@ -1,0 +1,12 @@
+.bold_font {
+  font-family: arial black;
+}
+/*copy */
+.d_flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.just_d_flex {
+  display: flex;
+}

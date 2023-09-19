@@ -1,0 +1,8 @@
+.arrival_article {
+  background-image: url("./images/back.jpg");
+  padding: 50px;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

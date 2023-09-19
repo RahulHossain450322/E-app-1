@@ -1,0 +1,27 @@
+.mobile_nav {
+  display: none !important;
+}
+.mobile_user_section,
+.bar {
+  color: aliceblue !important;
+}
+.mobile_nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000 !important;
+}
+.mobile_user_section {
+  position: relative;
+}
+@media screen and (max-width: 950px) {
+  .mobile_nav {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(7, 8, 58);
+    padding: 0 5px;
+  }
+  .bar {
+    cursor: pointer;
+  }
+}

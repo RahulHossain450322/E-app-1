@@ -1,0 +1,25 @@
+.topbar {
+  background-color: #7c3fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+.top_list_menu {
+  display: flex;
+}
+.top_list {
+  list-style: none;
+  margin-left: 20px;
+  align-items: center;
+}
+@media screen and (max-width: 950px) {
+  .topbar {
+    flex-direction: column !important;
+    padding: 20px 0;
+  }
+  .free {
+    margin: 20px 0 !important;
+  }
+}

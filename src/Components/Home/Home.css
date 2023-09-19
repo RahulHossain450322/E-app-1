@@ -1,0 +1,47 @@
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0px;
+}
+.brand_img {
+  max-width: 80px !important;
+  width: 100%;
+}
+.arrival_img_group {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.types_of {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+.collections {
+  padding: 40px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+}
+.collection_img {
+  max-width: 400px !important;
+  width: 100% !important;
+}
+@media screen and (max-width: 576px) {
+  .arrival_img_group {
+    flex-direction: column;
+  }
+  .types_of {
+    flex-direction: column !important;
+  }
+  .type_Fashion {
+    padding: 10px;
+  }
+  .collections {
+    flex-direction: column !important;
+  }
+}

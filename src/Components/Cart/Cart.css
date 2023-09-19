@@ -1,0 +1,20 @@
+.cart_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_content_cart {
+  width: 49%;
+}
+.right_content_cart {
+  width: 49%;
+}
+@media screen and (max-width: 576px) {
+  .cart_details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right_content_cart {
+    margin-top: 30px;
+  }
+}
